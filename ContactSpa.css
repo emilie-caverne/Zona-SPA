@@ -1,0 +1,119 @@
+header{
+    background-color: black;
+}
+.logo{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+}
+header nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav :hover{
+    color: aliceblue;
+}
+a, i {
+    text-decoration: none;
+    color: #e0c184;
+    font-family: 'Qwigley', cursive;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.Espace, .Horaires, .Tarifs, .Contact {
+    display: flex;
+    flex-direction: column;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 60px;
+    text-align: center;
+  }
+table thead {
+    background-color: #e0c184;
+}
+
+.titretableau {
+    text-align: start;
+    font-size: 20px;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+}
+
+.gris{
+    background-color: #e5e5e5;
+}
+h1{
+    font-family: 'Qwigley', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+h2{
+    font-family: 'Qwigley', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.pn, .mail{
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    border-top: none;
+    border-right: none;
+    margin: 5px;
+}
+h3{
+    font-family: 'Qwigley', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+.choix{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.Envoyer{
+    text-align: center;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(164, 117, 72);
+    border: solid;
+    border-color: #a85f5f;
+}
+footer{
+    background-color: #a8705f;
+    color: aliceblue;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

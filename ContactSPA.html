@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zona SPA - Contact</title>
+    <link rel="stylesheet" href="ContactSpa.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <nav>
+      <img src="/img/logo.webp" class="logo" />
+      <div class="Espace">
+        <i class="fa-solid fa-water-ladder"></i>
+        <a href="#">Espace</a>
+      </div>
+      <div class="Horaires">
+        <i class="fa-solid fa-clock"></i>
+        <a href="#">Horaires</a>
+      </div>
+      <div class="Tarifs">
+        <i class="fa-solid fa-credit-card"></i>
+        <a href="#">Tarifs</a>
+      </div>
+      <div class="Contact">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <section>
+        <h1>Réservez votre créneau massage</h1>
+        <table>
+          <thead>
+            <tr>
+              <th class="titretableau">Session découverte de 45 minutes</th>
+            </tr>
+          </thead>
+        </table>
+        <table>
+          <tbody>
+            <tr class="gris">
+              <th scope="row">05 Janvier 2024</th>
+              <td>15h30</td>
+              <td>Réserver ce créneau</td>
+            </tr>
+            <tr>
+              <th scope="row">10 Janvier 2024</th>
+              <td>16h30</td>
+              <td>Réserver ce créneau</td>
+            </tr>
+            <tr class="gris">
+              <th scope="row">15 Janvier 2024</th>
+              <td>15h30</td>
+              <td>Réserver ce créneau</td>
+            </tr>
+            <tr>
+              <th scope="row">20 Janvier 2024</th>
+              <td>16h30</td>
+              <td>Réserver ce créneau</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Pour valider votre réservation, compléter ce formulaire :</h2>
+        <div class="pn">
+          <input
+            type="text"
+            name="Votre prénom"
+            placeholder="Votre prénom"
+            class="prenom"
+          />
+          <input
+            type="text"
+            name="Votre nom"
+            placeholder="Votre nom"
+            class="nom"
+          />
+        </div>
+        <div class="mail">
+          <input
+            type="text"
+            name="Votre adresse mail"
+            placeholder="Votre adresse mail"
+          />
+        </div>
+      </section>
+      <section>
+        <h3>Quels sont les raisons de votre venue ?</h3>
+        <form>
+          <label
+            ><input name="newsletter" type="checkbox" checked /> Besion de me
+            détendre</label
+          >
+          <label
+            ><input name="privacy" type="checkbox" /> Je veux tester avec des
+            amis</label
+          >
+        </form>
+        <h3>Voulez-vous souscrire à a un programme de fidélité ?</h3>
+        <form>
+          <label
+            ><input name="origin" type="radio" value="Oui" checked /> Oui</label
+          >
+          <label><input name="origin" type="radio" value="Non" /> Non</label>
+        </form>
+        <h3>Comment avez-vous connu notre Spa ?</h3>
+        <form method="get" action="#" class="choix">
+          <p>
+            <label for="dwarfs">Faites votre choix:</label>
+            <select name="dwarfs" id="dwarfs">
+              <option>Ami(e)s</option>
+              <option>Famille</option>
+              <option>Réseaux</option>
+              <option>Pubs</option>
+            </select>
+          </p>
+
+          <p>
+            <input type="submit" value="Envoyer" class="Envoyer"/>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <p>&copy; Copyright - Zone SPA - 2023</p>
+  </footer>
+</html>
